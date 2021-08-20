@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width 
+    intital-scale=1.0">
+    <title>countdown timer</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+    <h1>Stop-watch</h1>
+
+    <div class="countdown-container">
+        <div class="elements hours-c">
+            <p class="big-text" id="hours">00</p>
+            <span>hours</span>
+        </div>
+        <div class="elements mins-c">
+            <p class="big-text" id="mins">00</p>
+            <span>mins</span>
+        </div>
+        <div class="elements seconds-c">
+            <p class="big-text" id="seconds">00</p>
+            <span>seconds</span>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button type="button" class="buttons" id="startStop">Start</button>
+        <button type="button" class="buttons" id="logButton">Log</button>
+        <button type="button" class="buttons" id="resetButton">Reset</button>
+
+    </div>
+
+    <div class="logs">
+        <h2>Stopwatch Logs</h2>
+        <ul id="record">
+            
+        </ul>
+    </div>
+
+
+
+    <script src="script.js" ></script>
+</body>
+</html>
